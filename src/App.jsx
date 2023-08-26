@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { CategoriasProvider } from "./context/CategoriasProvider";
+import ModalBebida from "./components/ModalBebida";
 import { BebidasProvider } from "./context/BebidasProvider";
 import ListadoBebidas from "./components/ListadoBebidas";
 
@@ -16,6 +17,7 @@ function App() {
         <Container className="mt-5">
           <Formulario />
           <ListadoBebidas />
+          <ModalBebida />
         </Container>
       </BebidasProvider>
     </CategoriasProvider>
