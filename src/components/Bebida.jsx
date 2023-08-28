@@ -5,7 +5,7 @@ function Bebida({ bebida }) {
 
   return (
     <Col md={6} lg={3}>
-      <Card className="mb-4">
+      <Card className="mb-4 text-align-center">
         <Card.Img
           src={bebida.strDrinkThumb}
           alt="Imagen-Bebida"
